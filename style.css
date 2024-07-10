@@ -37,9 +37,10 @@ body {
   transform-origin: left;
   width: 265px;
   /* max-width: 260px; */
-  /* padding: 1rem; */
+  padding-top: 1rem;
   /* z-index: 999; */
   min-height: 100vh;
+  margin-top:3.2rem;
   /* border: var(--b-r); */
   position: relative;
   color: white;
@@ -83,6 +84,7 @@ body {
   text-align: center;
   border-radius: 5px;
   padding: 0.5rem;
+  /* padding-top: 2; */
   font-size: 2rem;
   color: #1b53ec;
   font-style: italic;
@@ -257,7 +259,8 @@ main {
   top: 0;
   /* left: 0; */
   min-width: 100%;
-  /* right: 0; */
+  /* for fullwidth of navbar right:0 or  */
+  right: 0;
   /* border: 1px solid black; */
   height: var(--header-h);
   /* border: var(--b-r); */
