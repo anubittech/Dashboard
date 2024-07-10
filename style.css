@@ -148,7 +148,7 @@ main {
   /* border: 1px solid green; */
   padding-left: 5px;
   padding-right: 5px;
-  border: var(--b-r);
+  /* border: var(--b-r); */
   display: flex;
   align-items: center;
   justify-content: center;
