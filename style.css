@@ -213,6 +213,7 @@ main {
   background: var(--sales-card-color);
   width: 100%;
   display: flex;
+  border: var(--b-r);
   align-items: center;
   justify-content: center;
   /* height: 100%; */
