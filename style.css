@@ -35,7 +35,7 @@ body {
   /* direction: ltr; */
   display: block;
   transform-origin: left;
-  width: 265px;
+  width: 260px;
   /* max-width: 260px; */
   padding-top: 1rem;
   /* z-index: 999; */
@@ -56,11 +56,17 @@ body {
   /* text-align: center; */
   align-items: center;
   justify-content: center;
-  z-index: 9999;
+  z-index: 999;
   /* padding: 2px; */
   font-size: 30px;
   border: #fff;
   background: white;
+}
+.toggel-open{
+  width: 260px;
+}
+.toggel-close{
+  width: 0px;
 }
 .sidebar_item {
   /* position: sticky; */
@@ -68,7 +74,7 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   /* top: 0; */
-  top: 4.2rem;
+  top: 4.1rem;
   width: 100%;
   min-height: fit-content;
   /* border: var(--b-r); */
